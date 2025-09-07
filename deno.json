@@ -19,6 +19,7 @@
     "bulma": "npm:bulma@^1.0.4",
     "react": "npm:react@^19.1.1",
     "react-dom": "npm:react-dom@^19.1.1",
+    "sass": "npm:sass@^1.92.1",
     "vite": "npm:vite@^7.0.6"
   },
   "nodeModulesDir":"auto",
