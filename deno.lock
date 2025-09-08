@@ -7,6 +7,7 @@
     "npm:@vitejs/plugin-react-swc@^3.10.2": "3.11.0_vite@7.1.4__picomatch@4.0.3_sass@1.92.1",
     "npm:bulma@^1.0.4": "1.0.4",
     "npm:react-dom@^19.1.1": "19.1.1_react@19.1.1",
+    "npm:react-lottie-player@^2.1.0": "2.1.0_react@19.1.1",
     "npm:react@^19.1.1": "19.1.1",
     "npm:sass@1.92.1": "1.92.1",
     "npm:sass@^1.92.1": "1.92.1",
@@ -519,6 +520,9 @@
       "scripts": true,
       "bin": true
     },
+    "fast-deep-equal@3.1.3": {
+      "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
+    },
     "fdir@6.5.0_picomatch@4.0.3": {
       "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
       "dependencies": [
@@ -553,6 +557,9 @@
     },
     "is-number@7.0.0": {
       "integrity": "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng=="
+    },
+    "lottie-web@5.13.0": {
+      "integrity": "sha512-+gfBXl6sxXMPe8tKQm7qzLnUy5DUPJPKIyRHwtpCpyUEYjHYRJC/5gjUvdkuO2c3JllrPtHXH5UJJK8LRYl5yQ=="
     },
     "micromatch@4.0.8": {
       "integrity": "sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==",
@@ -592,11 +599,23 @@
         "scheduler"
       ]
     },
+    "react-lottie-player@2.1.0_react@19.1.1": {
+      "integrity": "sha512-rxSNIVVLWYnwzsIow377vZsh7GDbReu70V7IDD9TbbcdcJWons4pSh3nyuEa4QWIZw0ZBIieoZRTsiqnb6MZ3g==",
+      "dependencies": [
+        "fast-deep-equal",
+        "lottie-web",
+        "react",
+        "rfdc"
+      ]
+    },
     "react@19.1.1": {
       "integrity": "sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ=="
     },
     "readdirp@4.1.2": {
       "integrity": "sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg=="
+    },
+    "rfdc@1.4.1": {
+      "integrity": "sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA=="
     },
     "rollup@4.50.0": {
       "integrity": "sha512-/Zl4D8zPifNmyGzJS+3kVoyXeDeT/GrsJM94sACNg9RtUE0hrHa1bNPtRSrfHTMH5HjRzce6K7rlTh3Khiw+pw==",
@@ -703,6 +722,7 @@
       "npm:@vitejs/plugin-react-swc@^3.10.2",
       "npm:bulma@^1.0.4",
       "npm:react-dom@^19.1.1",
+      "npm:react-lottie-player@^2.1.0",
       "npm:react@^19.1.1",
       "npm:sass@^1.92.1",
       "npm:vite@^7.0.6"
