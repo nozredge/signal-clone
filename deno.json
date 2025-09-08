@@ -3,7 +3,8 @@
     "dev": "deno run -A --node-modules-dir npm:vite",
     "build": "deno run -A --node-modules-dir npm:vite build",
     "preview": "deno run -A --node-modules-dir npm:vite preview",
-    "serve": "deno run --allow-net --allow-read jsr:@std/http@1/file-server dist/"
+    "serve": "deno run --allow-net --allow-read jsr:@std/http@1/file-server dist/",
+    "build-bulma": "sass --load-path=node_modules src/stylesheets/main-bulma.scss src/stylesheets/main-bulma.css"
   },
   "compilerOptions": {
     "lib": ["ES2022", "DOM", "DOM.Iterable"],

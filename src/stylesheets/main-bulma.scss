@@ -1,0 +1,31 @@
+// Variables para personalizar Bulma
+$sblue: #2090EA;
+
+// Variables para el tamaño responsivo de imágenes
+$image-size-mobile: (280) + px; 
+$image-size-tablet: (740*0.5) + px; // 370px
+$image-size-desktop: (740*0.5) + px; // 370px
+
+// Ahora importamos todo Bulma con nuestros cambios aplicados
+@use "bulma/sass" with (
+  $primary: $sblue
+);
+
+// Finalmente, agregamos nuestros estilos personalizados para las imágenes
+.card-features {
+  img {
+    width: $image-size-mobile;
+  }
+}
+
+@media(min-width: 769px){
+  .card-features {
+    img {
+      width: $image-size-tablet;
+    }
+  }
+}
+
+.box {
+  --bulma-box-shadow: 0.6em 0.6em 0.6em -0.5em hsla(221deg,14%,4%,0.1),0 0 0 1px hsla(221deg,14%,4%,0.02);
+}
