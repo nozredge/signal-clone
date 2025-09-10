@@ -13,21 +13,21 @@
     "jsxImportSourceTypes": "@types/react"
   },
   "imports": {
-    "@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.5",
-    "@types/react": "npm:@types/react@^19.1.9",
-    "@types/react-dom": "npm:@types/react-dom@^19.1.7",
-    "@vitejs/plugin-react-swc": "npm:@vitejs/plugin-react-swc@^3.10.2",
-    "bulma": "npm:bulma@^1.0.4",
-    "react": "npm:react@^19.1.1",
-    "react-dom": "npm:react-dom@^19.1.1",
-    "react-lottie-player": "npm:react-lottie-player@^2.1.0",
-    "sass": "npm:sass@^1.92.1",
-    "vite": "npm:vite@^7.0.6"
+    "@deno/vite-plugin": "npm:@deno/vite-plugin@1.0.5",
+    "@types/react": "npm:@types/react@19.1.9",
+    "@types/react-dom": "npm:@types/react-dom@19.1.7",
+    "@vitejs/plugin-react-swc": "npm:@vitejs/plugin-react-swc@3.10.2",
+    "bulma": "npm:bulma@1.0.4",
+    "react": "npm:react@19.1.1",
+    "react-dom": "npm:react-dom@19.1.1",
+    "react-lottie-player": "npm:react-lottie-player@2.1.0",
+    "sass": "npm:sass@1.92.1",
+    "vite": "npm:vite@6.3.6"
   },
-  "nodeModulesDir":"auto",
+  "nodeModulesDir": "auto",
   "lint": {
     "rules": {
-      "tags": ["recommended", "react","jsx"],
+      "tags": ["recommended", "react", "jsx"],
       "include": [
         "explicit-function-return-type",
         "explicit-module-boundary-types",
